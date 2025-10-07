@@ -35,7 +35,7 @@ jobs:
       # Add a display name for the step
       - name: Run a script
         run: |
-          echo: "I am running a job in the development environment"
+          echo "I am running a job in the development environment"
 
   # the second job. this is a user-specified name for the job
   QA_JOB:
@@ -60,7 +60,7 @@ jobs:
       # Add a display name for the step
       - name: Run a script
         run: |
-          echo: "I am running a job in the QA environment"
+          echo "I am running a job in the QA environment"
 
   # the third job. this is a user-specified name for the job
   PROD_JOB:
@@ -85,4 +85,4 @@ jobs:
       # Add a display name for the step
       - name: Run a script
         run: |
-          echo: "I am running a job in the production environment"
+          echo "I am running a job in the production environment"
